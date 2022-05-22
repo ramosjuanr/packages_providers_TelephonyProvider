@@ -13,7 +13,7 @@
          (e.g. com.foo/.Bar for the package com.foo and class com.foo.Bar)
          If this value is empty or unparsable, we will apply APNs from the APN
          conf xml file.  -->
-    <string name="apn_source_service" translatable="false"></string>
+    <string name="apn_source_service" translatable="false">com.google.android.carrier/.ApnSourceService</string>
 
     <!-- Countries, in iso country code format, where WFC entitlement or
          other user action is required before user can turn on WFC setting,
